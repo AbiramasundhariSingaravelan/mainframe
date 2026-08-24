@@ -5,6 +5,7 @@ phases:
     commands:
       - echo "Build started"
       - mvn clean package
+      - echo "added"
       - echo "Build completed"
 
 artifacts:
