@@ -10,4 +10,4 @@ phases:
 
 artifacts:
   files:
-    - target/hello-aws-1.0.0.jar
+    - target/StudentApp-0.0.1-SNAPSHOT.jar
