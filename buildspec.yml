@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+
+  build:
+    commands:
+      - echo "Build started"
+      - mvn clean package
+      - echo "Build completed"
+
+artifacts:
+  files:
+    - target/hello-aws-1.0.0.jar
