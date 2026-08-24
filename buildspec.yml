@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+
+  build:
+    commands:
+      - echo "Build started"
+      - mvn clean package
+      - echo "Build completed"
+
+artifacts:
+  files:
+    - target/StudentApp-0.0.1-SNAPSHOT.jar
